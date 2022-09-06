@@ -1,0 +1,22 @@
+{% extends "alumnos/plantilla_base.html" %}
+{% load static%}
+
+{% block contenido_base %}
+
+<!-- Cuerpo-->
+{% if exitoso %}
+<div style="background-color:#545052;">Tu curso fue guardado!!!!</div>
+{% endif %}
+<center>
+<h1>Bienvenidos al playground de la triple N (Nicolas, Nicolas, Nahuel)</h1>
+<br>
+<br>
+<br>
+<img src="{% static 'alumnos/assets/img/python.png' %}" width="250" height="250" alt="Logo de Python" class="center">
+<br>
+<br>
+<br>
+<h4>Estas leyendo este texto exactamente el dia {% now "j" %} del mes {% now "F" %} del año {% now "Y" %} a las {% now "H:i" %} horas.</h4>
+</center>
+
+{% endblock contenido_base %}

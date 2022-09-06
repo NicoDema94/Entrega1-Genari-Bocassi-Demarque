@@ -1,0 +1,52 @@
+{% extends "alumnos/plantilla_base.html" %}
+
+{% block style_block %}
+<style>
+  table.coder-table {
+    border:3px solid;
+  }
+  th,
+  td {
+    border:1px solid;
+    padding:5px 10px;
+  }
+</style>
+{% endblock style_block %}
+
+{% block contenido_base %}
+
+<h1>Cursos</h1>
+<a href="{% url 'curso_formulario' %}">Crear curso!</a>
+<br>
+<a href="{% url 'busqueda_curso_form' %}">Buscar Cursos</a>
+
+<br><br>
+<h3>Cursos:</h3>
+
+<table class="coder-table">
+  <tbody>
+    <tr>
+      <th>
+        <strong>Nombre</strong>
+      </th>
+      <th>
+        <strong>Comision</strong>
+      </th>
+    </tr>
+    {% for curso in cursos %}
+    <tr>
+      <td>{{curso.nombre}}</td>
+      <td>{{curso.comision}}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+{% endblock contenido_base %}
+
+
+
+
+
+
+
