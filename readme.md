@@ -8,7 +8,7 @@
 5. [FAQs](#faqs)
 
 
-### informacion general
+### Informacion general
 
 Informacion general del proyecto:
 *[Establecimiento] - Establecimiento educativo: CoderHouse.
@@ -18,7 +18,7 @@ Informacion general del proyecto:
 *[Año] - Año de cursada: 2022
 
 
-### tecnologias
+### Tecnologias
 
 Tecnologias utilizadas dentro del proyecto:
 *[Python]------(https://www.python.org/) - Versión: 3.10.6
@@ -31,7 +31,7 @@ Tecnologias utilizadas dentro del proyecto:
 *[GitHub]------(https://github.com/) - Versión: Online. 
 *[Ionos]-------(https://www.ionos.com/tools/favicon-generator) - Versión: Online. 
 
-### instalacion
+### Instalacion
 
 ***
 Como instalar este proyecto en mi equipo? Pasos a seguir:
@@ -45,13 +45,13 @@ Como instalar este proyecto en mi equipo? Pasos a seguir:
 7. Igresar a la direccion http://127.0.0.1:8000/ para visualizar el proyecto.
 
 
-### colaboracion
+### Colaboracion
 
 ***
 Si deseas colaborar en este proyecto, puedes luego de clonarlo, hacer los cambios necesarios y enviarlo al repositorio para ser evaluado y en caso de esta todo correcto, incorporaremos los cambios al proyecto!!! :)
 
 
-### faqs
+### FAQS
 
 ***
 Esta es una lista de preguntas frequentes:
